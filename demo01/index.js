@@ -1,3 +1,4 @@
+//实现基本的变量
 function createStore(initState){
   let state = initState;
   const listeners = [];

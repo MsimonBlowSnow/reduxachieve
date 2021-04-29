@@ -1,4 +1,7 @@
-//实现基本的变量
+/* 
+  实现基本功能的实现,
+    缺点不能按机会改变state
+*/
 function createStore(initState){
   let state = initState;
   const listeners = [];
